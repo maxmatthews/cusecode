@@ -10,7 +10,7 @@ export default function Home() {
 			<main className={`container`}>
 				<div style={{ textAlign: "center" }}>
 					<Image
-						style={{ marginTop: 50 }}
+						style={{ marginTop: 50, maxWidth: "80vw" }}
 						src={"/logo.svg"}
 						alt={"cuse code logo"}
 						width={950 / 2}
