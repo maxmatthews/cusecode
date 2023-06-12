@@ -18,11 +18,11 @@ export default function Home() {
 					Cuse Code: We're a dev shop powered by junior developers fulfilling
 					the entire <strong>SDLC</strong>.
 				</h2>
-				<h4 style={{ marginTop: 40, marginBottom: 40 }}>
+				<h3 style={{ marginTop: 40, marginBottom: 40 }}>
 					If you've made it to our site, you've probably got some questions.
 					Hopefully we've got some answers. Click on <strong>any</strong>{" "}
 					question below to learn more.
-				</h4>
+				</h3>
 				<FAQ />
 				<Contact />
 				<Footer />

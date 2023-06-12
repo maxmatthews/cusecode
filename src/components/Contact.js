@@ -24,7 +24,7 @@ const Contact = () => {
 					className={styles.input}
 				/>
 				<br />
-				<label htmlFor={"name"} className={styles.label}>
+				<label htmlFor={"email"} className={styles.label}>
 					Email:
 				</label>
 				<input
@@ -34,7 +34,7 @@ const Contact = () => {
 					className={styles.input}
 				/>
 				<br />
-				<label htmlFor={"name"} className={styles.label}>
+				<label htmlFor={"message"} className={styles.label}>
 					Message:
 				</label>
 				<textarea
