@@ -7,12 +7,12 @@ export default function Home() {
 	return (
 		<div className={styles.wrapper}>
 			<main className={`container`}>
-				<div style={{ textAlign: "center" }}>
+				<div className={styles.logoContainer}>
 					<img
+						className={styles.logo}
 						src={"/logo.svg"}
 						alt={"cuse code logo"}
-						className={styles.logo}
-					></img>
+					/>
 				</div>
 				<h2>
 					Cuse Code: We're a dev shop powered by junior developers fulfilling

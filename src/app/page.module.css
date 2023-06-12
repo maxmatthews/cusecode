@@ -1,20 +1,27 @@
 .wrapper {
-	background: rgb(0, 0, 30);
-	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
+    background: rgb(0, 0, 30);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logoContainer {
+    height: 471px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 .logo {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	max-width: 80vw;
-	width: 475px;
+    height: 100%;
+    max-width: 80vw;
 }
 
 @media screen and (max-width: 550px) {
-	.logo {
-		margin-top: 25px;
-		margin-bottom: 25px;
-	}
+    .logoContainer {
+        height: 371px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
