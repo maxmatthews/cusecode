@@ -5,7 +5,7 @@ const Footer = () => {
 				borderTop: "1px solid white",
 				paddingTop: 25,
 				marginTop: 50,
-				marginBottom: 25,
+				paddingBottom: 25,
 			}}
 		>
 			©{new Date().getFullYear()} Zane Tech LLC d/b/a Cuse Code
