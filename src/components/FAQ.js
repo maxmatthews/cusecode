@@ -144,7 +144,7 @@ const FAQ = () => {
 							</li>
 							<li>
 								Have we scoped our problem down to the <strong>MVP</strong>{" "}
-								(minium viable project)?
+								(minimum viable project)?
 							</li>
 							<li>
 								Did we complete a thorough brain dump so thoughts meet paper?
