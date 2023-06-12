@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { UnfoldMore, UnfoldLess } from "@mui/icons-material";
-import styles from "./Question.scss";
 
 const Question = ({ question, answer }) => {
 	const [open, setOpen] = useState(false);
 
 	return (
-		<div className={styles.question}>
+		<div>
 			<div
 				style={{
 					background: "#A2B4C3",

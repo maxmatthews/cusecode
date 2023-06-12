@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 	return (
@@ -25,6 +27,8 @@ export default function Home() {
 				below to learn more.
 			</h4>
 			<FAQ />
+			<Contact />
+			<Footer />
 		</main>
 	);
 }

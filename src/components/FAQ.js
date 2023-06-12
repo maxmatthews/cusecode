@@ -11,7 +11,7 @@ const FAQ = () => {
 					<>
 						<p>
 							We're not your traditional dev shop. Nearly our entire team are
-							junior software developers and graduateas of the{" "}
+							junior software developers and graduates of the{" "}
 							<a href={"https://careersincode.org"}>Careers in Code</a> bootcamp
 							based in the Syracuse, NY area.
 						</p>
@@ -31,7 +31,7 @@ const FAQ = () => {
 							This can be answered in one word: <strong>cost!</strong>
 						</p>
 						<p>
-							Computer engineers are famously one off the highest paid salaries
+							Computer engineers are famously one of the highest paid salaries
 							in the US. However, the industry is struggling with having an
 							imbalanced ratio between junior and senior developers.
 						</p>
@@ -44,7 +44,7 @@ const FAQ = () => {
 				}
 			/>
 			<Question
-				question={<>Where are you developers based out of?</>}
+				question={<>Where are your developers based out of?</>}
 				answer={
 					<>
 						<p>
