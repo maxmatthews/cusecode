@@ -4,10 +4,7 @@ import Question from "@/components/Question";
 
 const FAQ = () => {
 	return (
-		<div
-			style={{ marginTop: 50 }}
-			style={{ border: "1px solid white", padding: 10 }}
-		>
+		<div style={{ border: "1px solid white", padding: 10, marginTop: 50 }}>
 			<Question
 				question={<>Why should I pick you? What makes you different?</>}
 				answer={
