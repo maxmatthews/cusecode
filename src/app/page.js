@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -9,16 +8,13 @@ export default function Home() {
 		<div className={styles.wrapper}>
 			<main className={`container`}>
 				<div style={{ textAlign: "center" }}>
-					<Image
-						style={{ marginTop: 50, maxWidth: "80vw" }}
+					<img
 						src={"/logo.svg"}
 						alt={"cuse code logo"}
-						width={950 / 2}
-						height={742 / 2}
-						priority={true}
-					></Image>
+						className={styles.logo}
+					></img>
 				</div>
-				<h2 style={{ marginTop: 50 }}>
+				<h2>
 					Cuse Code: We're a dev shop powered by junior developers fulfilling
 					the entire <strong>SDLC</strong>.
 				</h2>
