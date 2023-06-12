@@ -44,6 +44,38 @@ const FAQ = () => {
 				}
 			/>
 			<Question
+				question={
+					<>
+						How can I trust junior developers will have enough experience to
+						complete my project?
+					</>
+				}
+				answer={
+					<>
+						<p>
+							We ensure every project has a senior developer assigned to the
+							project to guide and mentor the junior devs. Our students are also
+							rigorously assessed over the course of a 6 month bootcamp where
+							only the top graduates are invited to work on{" "}
+							<strong>Cuse Code</strong> projects.
+						</p>
+						<p>
+							Our first senior developer,{" "}
+							<a href={"https://maxmatthe.ws"}>Max Matthews</a>, has over a
+							decade of professional development experience. He has built
+							several full stack teams while CTO at the startup{" "}
+							<a href={"https://wearetuzag.com"}>tuzag</a>. He is also Lead
+							Instructor at{" "}
+							<a href={"https://careersincode.org"}>Careers in Code</a>, and has
+							been part of the{" "}
+							<a href={"https://hackupstate.com"}>Hack Upstate</a> community
+							since 2012. Max finds engineering most fun when he can mentor top
+							developers through real world challenges to solve.
+						</p>
+					</>
+				}
+			/>
+			<Question
 				question={<>Where are your developers based out of?</>}
 				answer={
 					<>
@@ -202,6 +234,21 @@ const FAQ = () => {
 						</p>
 						<p>
 							Proper project planning using the SDLC prevents unexpected costs.
+						</p>
+					</>
+				}
+			/>
+			<Question
+				question={<>How long do projects take?</>}
+				answer={
+					<>
+						<p>
+							Wordpress websites take <strong>2 - 4</strong> weeks.
+						</p>
+						<p>
+							Full stack apps range from <strong>one to several months</strong>,
+							although the goal is to build a lasting relationship so we can
+							continue to work on new features and bugs as they arise.
 						</p>
 					</>
 				}
