@@ -24,6 +24,103 @@ const FAQ = () => {
 				}
 			/>
 			<Question
+				question={<>What's the SDLC?</>}
+				answer={
+					<>
+						<p>
+							The <strong>S</strong>oftware <strong>D</strong>
+							evelopment <strong>L</strong>ife <strong>C</strong>ycle is a{" "}
+							<strong>seven</strong> step process all software applications go
+							through. Skipping any of these steps can lead to significantly
+							higher project costs. Doing the early phases right out of the gate
+							saves you money.
+						</p>
+						<p>Let's dive into each one a little deeper:</p>
+						<h4>1) Project Planning</h4>
+						<p>
+							<strong>All</strong> good projects start with thorough planning.
+							Before we think about a line of code we examine questions like:
+						</p>
+						<ul>
+							<li>
+								What <strong>real world</strong> pain points are we trying to
+								solve?
+							</li>
+							<li>
+								Have we scoped our problem down to the <strong>MVP</strong>{" "}
+								(minimum viable project)?
+							</li>
+							<li>
+								Did we complete a thorough brain dump so thoughts meet paper?
+							</li>
+							<li>
+								Is there user discovery that should happen{" "}
+								<strong>before</strong> we start building?
+							</li>
+							<li>
+								Is there a rough idea of cost and matching funds to fuel the
+								project?
+							</li>
+						</ul>
+						<h4>2) Requirements Definition</h4>
+						<p>
+							Now that we've identified the project's viability, it's time to
+							get a little{" "}
+							<a
+								href={
+									"https://en.wikipedia.org/wiki/Agile_software_development"
+								}
+								target={"blank"}
+							>
+								agile
+							</a>
+							. We start dividing your project by identifying epics (think:
+							major features), then breaking it down further into tasks. This is
+							one of the most important parts of a project as getting it setup
+							right from the get-go allows developers to track progress while
+							giving the client insight into how the project is progressing.
+						</p>
+						<h4>3) Design and Prototying</h4>
+						<p>
+							It's not <em>quite</em> time to start writing code yet. Sharing a
+							clear vision of the expected final product is not only important
+							for staying on the same page. It makes it easier for developers to
+							know exactly what they're building and makes sure we didn't miss
+							any required components from step #1 & #2 above.
+						</p>
+						<h4>4) Development</h4>
+						<p>
+							Alright! We made it! This is the part we've been waiting for! This
+							phase will actually see the{" "}
+							<span style={{ textDecoration: "line-through" }}>
+								pen meets the paper
+							</span>{" "}
+							code hits the text editor. Our developers specialize in full stack
+							Javascript (React, Node, Express and SQL) & Wordpress.
+						</p>
+						<h4>5) Testing</h4>
+						<p>
+							Wait, I thought we were done once we coded it! Not quite yet...
+							Nothing is perfect on the first try, and code is no exception.
+							This is where we can open the doors to beta testers and make sure
+							we've squashed as many bugs as possible.
+						</p>
+						<h4>6) Deployment</h4>
+						<p>
+							The cloud can be a mysterious place. We'll help you get your app
+							online and viewable on the internet.
+						</p>
+						<h4>7) Maintenance and Cycle Restart</h4>
+						<p>
+							Code, like a well oiled machine, needs maintenance. As users
+							discover bugs or start generating feature requests, we'll be here
+							to keep everything humming, as well as getting ready to start the
+							process over again to help your app or website grow.
+						</p>
+					</>
+				}
+			/>
+			<Question
 				question={<>Why would I want junior developers to build my project?</>}
 				answer={
 					<>
@@ -115,103 +212,6 @@ const FAQ = () => {
 							step of the SDLC to build you an app from scratch including a
 							front end powered by React, a backend powered with Node.js, and a
 							SQL powered database.
-						</p>
-					</>
-				}
-			/>
-			<Question
-				question={<>What's the SDLC?</>}
-				answer={
-					<>
-						<p>
-							The <strong>S</strong>oftware <strong>D</strong>
-							evelopment <strong>L</strong>ife <strong>C</strong>ycle is a{" "}
-							<strong>seven</strong> step process all software applications go
-							through. Skipping any of these steps can lead to significantly
-							higher project costs. Doing the early phases right out of the gate
-							saves you money.
-						</p>
-						<p>Let's dive into each one a little deeper:</p>
-						<h4>1) Project Planning</h4>
-						<p>
-							<strong>All</strong> good projects start with thorough planning.
-							Before we think about a line of code we examine questions like:
-						</p>
-						<ul>
-							<li>
-								What <strong>real world</strong> pain points are we trying to
-								solve?
-							</li>
-							<li>
-								Have we scoped our problem down to the <strong>MVP</strong>{" "}
-								(minimum viable project)?
-							</li>
-							<li>
-								Did we complete a thorough brain dump so thoughts meet paper?
-							</li>
-							<li>
-								Is there user discovery that should happen{" "}
-								<strong>before</strong> we start building?
-							</li>
-							<li>
-								Is there a rough idea of cost and matching funds to fuel the
-								project?
-							</li>
-						</ul>
-						<h4>2) Requirements Definition</h4>
-						<p>
-							Now that we've identified the project's viability, it's time to
-							get a little{" "}
-							<a
-								href={
-									"https://en.wikipedia.org/wiki/Agile_software_development"
-								}
-								target={"blank"}
-							>
-								agile
-							</a>
-							. We start dividing your project by identifying epics (think:
-							major features), then breaking it down further into tasks. This is
-							one of the most important parts of a project as getting it setup
-							right from the gecko allows developers to track progress while
-							giving the client insight into how the project is progressing.
-						</p>
-						<h4>3) Design and Prototying</h4>
-						<p>
-							It's not <em>quite</em> time to start writing code yet. Sharing a
-							clear vision of the expected final product is not only important
-							for staying on the same page. It makes it easier for developers to
-							know exactly what they're building and makes sure we didn't miss
-							any required components from step #1 & #2 above.
-						</p>
-						<h4>4) Development</h4>
-						<p>
-							Alright! We made it! This is the part we've been waiting for! This
-							phase will actually see the{" "}
-							<span style={{ textDecoration: "line-through" }}>
-								pen meets the paper
-							</span>{" "}
-							code hits the text editor. Our developers specialize in full stack
-							Javascript (React, Node, Express and SQL) & Wordpress.
-						</p>
-						<h4>5) Testing</h4>
-						<p>
-							Wait, I thought we were done once we coded it! Not quite yet...
-							Nothing is perfect on the first try, and code is no exception.
-							This is where we can open the doors to beta testers and make sure
-							we've squashed as many bugs as possible.
-						</p>
-						<h4>6) Deployment</h4>
-						<p>
-							The cloud can be a mysterious place. We'll help you get your app
-							online and viewable on the internet.
-						</p>
-						<h4>7) Maintenance and Cycle Restart</h4>
-						<p>
-							Code, like a well oiled machine, needs maintenance. As users
-							discover bugs or start generating feature requests, we'll be here
-							to keep everything humming, as well as getting ready to start the
-							process over again to help your app or website grow.
 						</p>
 					</>
 				}
