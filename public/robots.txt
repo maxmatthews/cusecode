@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cusecode.com
+
+# Sitemaps
+Sitemap: https://cusecode.com/sitemap.xml
